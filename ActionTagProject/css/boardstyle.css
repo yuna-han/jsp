@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+	background-color: pink;
+}
+
+header {
+	background-color: rgb(128, 128, 192);
+	border: purple 3px solid;
+	height: 20%;
+	position: relative;
+}
+
+#content {
+	margin: 10px 9px 50px;
+	height: 65%;
+	background-color: white;
+}
+
+#areaMain {
+	background-color: white;
+	position: relative;
+	float: right;
+	padding: 10px 0;
+	border: purple 3px solid;
+	width: 75%;
+}
+
+#areaSub {
+	background-color: rgb(128, 128, 192);
+	border: rgb(128, 128, 192) 3px solid;
+	width: 20%;
+	float: left;
+}
+
+footer {
+	border: purple 3px dotted;
+	clear: both;
+	height:30%;
+}
